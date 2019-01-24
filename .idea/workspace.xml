@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d14ee62c-3183-4208-a548-269cdd971685" name="Default Changelist" comment="outer -&gt; inner&#10;use props">
-      <change afterPath="$PROJECT_DIR$/src/comp4/TodoList.js" afterDir="false" />
+    <list default="true" id="d14ee62c-3183-4208-a548-269cdd971685" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp4/TodoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp4/TodoComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp4/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp4/TodoList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2454" />
-          <entry key="txt" value="41" />
+          <entry key="js" value="2778" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2454" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="JavaScript" value="2778" />
+          <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -114,20 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comp4/TodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+            <state relative-caret-position="160">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/comp4/TodoComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="245">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -180,8 +180,8 @@
         <option value="$PROJECT_DIR$/src/comp2/RefOuter.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/comp4/TodoInput.js" />
-        <option value="$PROJECT_DIR$/src/comp4/TodoComponent.js" />
         <option value="$PROJECT_DIR$/src/comp4/TodoList.js" />
+        <option value="$PROJECT_DIR$/src/comp4/TodoComponent.js" />
       </list>
     </option>
   </component>
@@ -306,7 +306,7 @@
       <updated>1548204116017</updated>
       <workItem from="1548204117494" duration="3759000" />
       <workItem from="1548211450098" duration="1569000" />
-      <workItem from="1548290949911" duration="6222000" />
+      <workItem from="1548290949911" duration="8006000" />
     </task>
     <task id="LOCAL-00001" summary="commit!!">
       <created>1548212958760</created>
@@ -329,15 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548296003068</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="todolist add">
+      <created>1548297714890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548297714890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11550000" />
+    <option name="totallyTimeSpent" value="13334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19652265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -370,7 +376,8 @@
     <MESSAGE value="commit!!" />
     <MESSAGE value="outer -&gt; inner&#10;use ref" />
     <MESSAGE value="outer -&gt; inner&#10;use props" />
-    <option name="LAST_COMMIT_MESSAGE" value="outer -&gt; inner&#10;use props" />
+    <MESSAGE value="todolist add" />
+    <option name="LAST_COMMIT_MESSAGE" value="todolist add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/comp1/Counter.js">
@@ -471,20 +478,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comp4/TodoComponent.js">
+    <entry file="file://$PROJECT_DIR$/src/comp4/TodoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comp4/TodoList.js">
+    <entry file="file://$PROJECT_DIR$/src/comp4/TodoComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        <state relative-caret-position="245">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,11 +16,19 @@ class TodoComponent extends Component{
         })
     }
 
+    removeTodo = (idx) => {
+        console.log("TodoComponent removeTodo...." + idx)
+        this.state.todos.splice(idx,1)
+        this.setState({
+            todos: this.state.todos
+        })
+    }
+
     render(){
         return(
             <div>
                 <TodoInput add={this.addTodo}/>
-                <TodoList arr={this.state.todos}/>
+                <TodoList arr={this.state.todos} remove={this.removeTodo}/>
             </div>
         )
     }
